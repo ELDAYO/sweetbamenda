@@ -1,0 +1,94 @@
+@font-face {
+	src: url("boo.ttf");
+	font-family: boo;
+}
+h1, h2 {
+	font-family: boo;
+
+	
+}
+body {
+	margin: 0;
+	text-align: center;
+	color: black;
+	font-family: 'roboto', sans-serif;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid grey;
+	border-radius: 10px;
+}
+.begin {
+  background-image: url("bamenda.jpg");
+  background-size: cover;
+ 
+  /* Stops the image from duplicating if the screen is wider/taller than the photo */
+      /* Scales image to completely cover the element */
+  
+}
+
+#beg-h {
+	margin: 2px 4px;
+  display: inline-block;      /* Forces the background to fit the text width */
+  background-color: #3D737A;  /* A bright yellow highlight */
+  color: white;             /* Dark text color for good contrast */
+  padding: 4px 1px;          /* Adds breathing room around the words */
+  border-radius: 4px;         /* Optional: softens the sharp corners */
+}
+.imgs {
+	display: flex;
+	flex-direction: center;
+	align-content: space-around;
+	
+  }
+#img {
+	width: auto;
+	height: 400px;
+	margin: 0 0 0 60px;
+	border: 2px solid black;
+	border-radius: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.sinRow { 
+	font-family: boo ;
+	font-style: italic; 
+  display: flex;
+	justify-content: space-around;
+	align-items: center;
+          /* Adds clean spacing between each item */
+}
+.explains {
+	display: flex;
+	justify-content: auto;
+	align-items: center;
+}
+.imagedayo {
+	width: 200px;
+
+}
+.card {
+	margin: 150px;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	background: #E3914E;
+	color: #2b2839;
+	border: 2px solid black;
+	border-radius: 65px;
+
+}
+
+#social {
+	 width: auto;
+	height: 30px;
+	margin:50px 0 0 10px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+footer {
+	text-decoration: underline;
+}
