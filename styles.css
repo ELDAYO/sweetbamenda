@@ -70,7 +70,7 @@ body {
 
 }
 .card {
-	margin: 150px;
+	margin: 10px;
 	padding: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -78,7 +78,7 @@ body {
 	background: #E3914E;
 	color: #2b2839;
 	border: 2px solid black;
-	border-radius: 65px;
+	border-radius: 5px;
 
 }
 
