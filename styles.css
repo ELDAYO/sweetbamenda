@@ -96,3 +96,43 @@ img {
   max-width: 100%;
   height: auto;
 }
+/* =======================================================
+   1. MOBILE STYLES (Default / Mobile-First)
+   ======================================================= */
+body {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically on mobile */
+}
+
+/* =======================================================
+   2. TABLET STYLES 
+   ======================================================= */
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 20px;
+  }
+  
+  .container {
+    flex-direction: row; /* Switch to a side-by-side row on tablets */
+  }
+}
+
+/* =======================================================
+   3. DESKTOP STYLES
+   ======================================================= */
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+  
+  .container {
+    max-width: 1200px; /* Prevent the website from stretching too wide */
+    margin: 0 auto;    /* Center the layout on huge screens */
+  }
+}
